@@ -1,0 +1,29 @@
+html{
+    background-color: #000;
+    color: #fff;
+
+}
+section{
+    position: absolute;
+    /* border: 3px solid white; */
+    height: 800px;
+    width: 800px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#canvas1{
+    top: 0;
+    position: relative;
+    height: 700px;
+    width: 800px;
+}
+#speedData{
+    margin-top: 1rem;
+    width: 800px;
+    font-size: 25px;
+    line-height: 30px;
+}
+#slider{
+    width: 600px;
+}
